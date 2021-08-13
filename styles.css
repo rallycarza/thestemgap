@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e9db3;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffeaa7, #fcd770, #ffc729);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.329);
+}
+header .logo {
+    max-width: 60px;
+    position: relative;
+}
+header ul {
+    display: flex;
+    position: relative;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: #e6e9ed;
+    font-weight: 600;
+    margin-left: 13px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom left, #69d6f4, #4e9db3);
+    padding: 10px 10px;
+    border-radius: .8em;
+    border-color: #69d6f4;
+    box-shadow: 0 0 px 0px #69d6f4 inset, 0 0 0 0 #54a7be;
+    transition: all 80ms ease-in-out;
+    filter: drop-shadow(10px 6px 8px rgba(0, 0, 0, 0.329))
+}
+header ul li a:hover {
+    background-color: #69d6f4;
+    font-size: large;
+}
+.content {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(to bottom, #ffeaa7, #fcd770);
+    padding: 50px 30px;
+    border-radius: 1.7em;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.329);
+}
+.content .textBox {
+    max-width: 600px;
+    position: relative;
+    padding-left: 50px;
+}
+.content h1 {
+    font-size:  4em;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 15px;
+}
+.content h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 20px;
+}
+.content p {
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 20px;
+}
+.content .more {
+    font-style: italic;
+    font-size: 1.1em;
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+.content .more .arrow {
+    max-width: 40px;
+    padding-left: 10px;
+}
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.content .imgBox img {
+    max-width: 400px;
+    filter: drop-shadow(10px 6px 8px rgba(0, 0, 0, 0.329))
+}
+.thumb {
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: -95px;
+}
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.thumb li img:hover {
+    transform: translateY(-15%);
+    filter: drop-shadow(10px 6px 8px rgba(0, 0, 0, 0.329));
+}
+.thumb li img {
+    max-width: 60px;
+    filter: drop-shadow(10px 6px 8px rgba(0, 0, 0, 0.329));
+}
+footer {
+    text-align: center;
+    background-image: linear-gradient(to top, #ffeaa7, #fcd770);
+    filter: drop-shadow(0px -6px 8px rgba(0, 0, 0, 0.329));
+}
